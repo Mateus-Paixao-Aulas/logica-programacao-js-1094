@@ -5,6 +5,7 @@ const numeros = [1, 2, 3, 4, 5, [6,7,8]]
 // map
 // filter
 // find
+
 // reduce
 
 // toFixed -> números
@@ -64,9 +65,9 @@ console.log(arrayDiferente3)
 // }
 
 // console.clear()
-// numeros.forEach((numero, index) => {
-//     numeros[index] = 'Número: '+numero
-// })
+numeros.forEach((numero, index) => {
+    numeros[index] = 'Número: '+numero
+})
 
 // console.log(numeros)
 // // numeros[1]
