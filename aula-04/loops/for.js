@@ -36,3 +36,5 @@ for(let i = 0; i < nome.length; i++){
 }
 
 console.log(nome.split('')) // gera um array com cada carácter da string
+
+// TODO: falar sobre label no JS
