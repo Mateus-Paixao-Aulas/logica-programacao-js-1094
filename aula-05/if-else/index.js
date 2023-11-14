@@ -84,18 +84,63 @@ if(numero < 4){
 }
 
 console.clear()
-const verificarNumero = Number(prompt('Informe um número'));
+// const verificarNumero = Number(prompt('Informe um número'));
+const verificarNumero = 10;
 let ehPositivoTexto;
+
+console.log(verificarNumero)
 
 if(verificarNumero > 0) {
     ehPositivoTexto = 'O número informado é positivo';
 } else if(verificarNumero < 0){
     ehPositivoTexto = 'O número informado é negativo';
+} else if(isNaN(verificarNumero)){
+    ehPositivoTexto = 'Por favor informe um número.';
 } else {
     ehPositivoTexto = 'O número informado é zero';
 }
 
 console.log(ehPositivoTexto)
 
-// SWITCH CASE
+// Isso aqui não é legal :\ 
+// if(true && true){
+//     console.log('Meu código')
+//     if(true){
+//         console.log('Meu código')
+//         if(true){
+//             console.log('Meu código')
+//             if(true){
+//                 console.log('Meu código')
+//                 if(true){
+//                     console.log('Meu código')
+//                     if(true){
+//                         console.log('Meu código')
+//                         if(true){
+//                             console.log('Meu código')
+//                             if(true){
+//                                 console.log('Meu código')
+//                                 if(true){
+//                                     console.log('Meu código')
+//                                 }
+//                             }
+//                         }
 
+//                         if(true){
+//                             console.log('Meu código')
+//                         }
+//                     }
+//                 }
+//             }
+            
+//             if(true){
+//                 console.log('Meu código')
+//             }
+//         }
+//     }
+// }else{
+//     console.log('Meu código')
+// }
+
+// TODO: tratamento de erros e validações
+// o Valor não é o que você espera // exceção
+// o valor é no formato esperado, fazer validações
