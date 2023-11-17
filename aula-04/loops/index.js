@@ -37,6 +37,18 @@ do{
     console.log('Chamou: O do while') 
 }while (contador)
 
+let valores = {};
+
+do{
+    if(!valores.a || isNaN(valores.a)) {
+        // valores.a = +prompt('Digite o primeiro valor')
+    }
+
+    if(!valores.b) {
+        // valores.b = +prompt('Digite o segundo valor')
+    }
+}while (!valores.a || !valores.b)
+
 
 // DO WHILE
 let inputUser
