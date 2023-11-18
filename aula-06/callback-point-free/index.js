@@ -2,7 +2,10 @@
 
 const frutas = ['Banana', 'Melancia', 'Caqui', 'Carambola']
 
-const contaCaracteres = valor => {
+const contaCaracteres = (valor, index) => {
+    if(index !== undefined){
+        console.log(index)
+    }
     return valor.length
 }
 
@@ -25,3 +28,18 @@ const valores = ['Mateus', '', 11, false, undefined, 'Rodrigo', null]
 const valorSemFalsy = valores.filter(Boolean)
 
 console.log(valorSemFalsy)
+
+const multiplicar = (numero) => {
+    // função que retorna outra função
+    return (valor) => 2 * numero + valor // hight order function
+}
+
+console.log()
+
+const resultado = multiplicar(4)(2)
+
+
+const transformaNumero = (fn, valor) => { // callback
+    return fn(valor)
+}
+console.log(transformaNumero(parseInt, '500'))
