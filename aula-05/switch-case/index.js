@@ -41,7 +41,7 @@ console.log(corTraduzida)
 
 let valor = 4;
 
-// TODO: em qual ECMA foi introduzido, link artigo.
+// x TODO: em qual ECMA foi introduzido, link artigo.
 switch (true) {
     case valor > 4:
         console.log('Maior que 4');

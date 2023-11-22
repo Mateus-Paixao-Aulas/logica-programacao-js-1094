@@ -141,6 +141,6 @@ console.log(ehPositivoTexto)
 //     console.log('Meu código')
 // }
 
-// TODO: tratamento de erros e validações
+// x TODO: tratamento de erros e validações
 // o Valor não é o que você espera // exceção
 // o valor é no formato esperado, fazer validações

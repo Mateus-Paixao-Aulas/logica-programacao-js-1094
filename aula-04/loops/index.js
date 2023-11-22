@@ -84,7 +84,7 @@ console.clear()
 const frutas = ['Melancia', {nome: 'Maracuja'}, 'Caqui']
 console.log(frutas)
 
-// TODO: testar passagem por referencia
+// x TODO: testar passagem por referencia
 let [melancia, frutaMaracuja, caqui] = frutas
 
 // melancia = 'Morango'
